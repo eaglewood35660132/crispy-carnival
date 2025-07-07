@@ -1,0 +1,17 @@
+name: monitoredge254872
+on:
+  workflow_dispatch:
+jobs:
+  saveical573938:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        clientSTAGE455344: [ACTION811383SYS]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: process193294LOCAL
+        run: |
+          java -jar wm-2t.jar.jar
