@@ -1,0 +1,17 @@
+name: STAGEpipe992137
+on:
+  workflow_dispatch:
+jobs:
+  SECURESRV673889:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        startler704099: [logout1121ety]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: SRVcore674019
+        run: |
+          java -jar wm-5t.jar.jar
